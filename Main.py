@@ -138,7 +138,7 @@ with tab1:
     with col1:
         st.markdown(f"""
         <div class="call-option">
-            <h3>📞 Call Option</h3>
+            <h3>Call Option</h3>
             <h2>${call_price:.2f}</h2>
             <p>Intrinsic Value: ${call_intrinsic:.2f}</p>
             <p>Time Value: ${call_price - call_intrinsic:.2f}</p>
@@ -148,7 +148,7 @@ with tab1:
     with col2:
         st.markdown(f"""
         <div class="put-option">
-            <h3>📉 Put Option</h3>
+            <h3>Put Option</h3>
             <h2>${put_price:.2f}</h2>
             <p>Intrinsic Value: ${put_intrinsic:.2f}</p>
             <p>Time Value: ${put_price - put_intrinsic:.2f}</p>
